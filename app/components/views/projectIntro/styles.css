@@ -1,0 +1,17 @@
+.project-intro {
+  padding: 128px;
+  background: white;
+}
+
+.block-text {
+  width: 33%;
+
+}
+
+.block-text h2 {
+ font-size: 32px; 
+}
+
+.description {
+   color: #a8a8af;
+}

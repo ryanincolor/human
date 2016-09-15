@@ -1,0 +1,11 @@
+.block-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10% 5%;
+}
+
+.block-image img {
+  width: 100%;
+  padding: 0 2%;
+}

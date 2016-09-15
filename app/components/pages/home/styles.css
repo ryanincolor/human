@@ -1,0 +1,41 @@
+.home {
+  opacity: 1;
+  transition: 1s all ease;
+}
+
+.home.enter {
+  opacity: 0;
+}
+
+.home.exit {
+  opacity: 0;
+}
+
+.hero {
+  height: 100vh;
+  min-height: 600px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 128px;
+}
+
+.title {
+  font-size: 80px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+}
+
+.nav a {
+  color: white;
+  padding: 64px;
+}
+

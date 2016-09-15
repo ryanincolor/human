@@ -1,0 +1,42 @@
+.panel {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: grey;
+  transform: translateX(-100%);
+  transition: all 300ms ease;
+}
+
+.panel.enter {
+    transform: translateY(0%);
+}
+
+.content {
+  width: 55%;
+  background: white;
+  padding: 128px 16% 128px 8%;
+}
+
+.content h1{
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.image {
+  width: 45%;
+  background-size: cover;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  position: fixed;
+}
+
+.close {
+  position: absolute;
+  top: 64px;
+  right: 64px;
+  color: black;
+  z-index: 1;
+  background-color: white;
+}

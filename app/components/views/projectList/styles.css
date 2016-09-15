@@ -1,0 +1,54 @@
+.project-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 80vh;
+  width: 80vw;
+  transform: scale(0.9);
+  margin-bottom: 128px;
+  background-size: cover;
+  transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
+  overflow: hidden;
+}
+
+.project[state='active']{
+  height: 100vh;
+  width: 100vw;
+}
+
+.project[state='active']:hover {
+  transform: scale(1);
+}
+
+
+.project a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 64px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project a span {
+  transition: all 1s cubic-bezier(0, 1, 0.5, 1);
+  z-index: -1;
+}
+
+.project:hover {
+  transform: scale(1);
+}
+
+.project:hover a span {
+  transform: scale(1.4);
+}

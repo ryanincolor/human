@@ -1,0 +1,10 @@
+.big-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.big-image img {
+  width: 100%;
+}

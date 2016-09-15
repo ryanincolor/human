@@ -1,0 +1,8 @@
+.big-image {
+  display: flex;
+  height: 80vh;
+}
+
+.big-image img {
+  widht: 100%;
+}

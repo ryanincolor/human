@@ -1,0 +1,29 @@
+.project {
+  background: rgb(228, 228, 228);
+  position: absolute;
+}
+
+.project article {
+  background: white;
+  margin-top: 100vh;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  transition: opacity 400ms ease, transform 400ms ease-out;
+  transform: scale(1);
+}
+
+.project .article-hidden {
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+.back {
+  position: fixed;
+  left:64px;
+  top:64px;
+  color: white;
+  text-decoration: none;
+  z-index: 1;
+}

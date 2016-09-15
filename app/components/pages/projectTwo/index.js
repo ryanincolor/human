@@ -7,8 +7,8 @@ const ProjectTwo = React.createClass({
   render: function() {
     return (
       <div>
-        <SplitImage imageOne="../public/images/projectTwo/image1.jpeg" imageTwo="../public/images/projectTwo/image1.jpeg" />
-        <Image image="../public/images/projectTwo/image1.jpeg" />
+        <SplitImage imageOne="../public/images/projectTwo/image1.jpg" imageTwo="../public/images/projectTwo/image1.jpg" />
+        <Image image="../public/images/projectTwo/image1.jpg" />
       </div>
     );
   }
